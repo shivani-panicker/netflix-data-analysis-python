@@ -1,37 +1,54 @@
-Project Overview
-Performed exploratory data analysis on Netflix content data using Python in Google Colab, uncovering insights on content distribution, ratings, top contributors, and release trends.
+# Netflix Data Analysis
 
-Aim of the Project
-To analyze Netflix’s dataset and identify patterns in content type, ratings, popularity of directors/actors, country-wise distribution, and yearly trends, along with basic sentiment insights.
+## Project Overview
+Performed exploratory data analysis (EDA) on Netflix content data using Python in Google Colab to uncover insights on content distribution, ratings, top contributors, and release trends.
 
-Key Features
-• Cleaned and handled missing values in columns like director, cast, and country
-• Transformed multi-value columns (actors, directors, countries) using splitting and stacking
-• Performed aggregation and grouping for insights extraction
-• Created interactive and static visualizations
+## Objective
+To analyze Netflix’s dataset and identify patterns in:
+- Content type (Movies vs TV Shows)
+- Ratings distribution
+- Popular directors and actors
+- Country-wise content production
+- Yearly release trends
+- Sentiment insights from descriptions
 
-Key Metrics Analyzed
-• Movies vs TV Shows distribution
-• Ratings distribution
-• Top directors and actors
-• Top countries producing content
-• Content release trends over years
-• Sentiment trends from content descriptions
+## Key Features
+- Cleaned and handled missing values in columns like `director`, `cast`, and `country`
+- Transformed multi-value columns using splitting and stacking
+- Performed aggregation and grouping for insights extraction
+- Created both static and interactive visualizations
 
-Visualizations and Analysis
-• Content Type Distribution (Bar Chart): Movies vs TV Shows comparison
-• Ratings Distribution (Pie Chart): Most common content ratings
-• Top Directors & Actors (Horizontal Bar Charts): Most frequent contributors
-• Top Countries (Bar Chart): Highest content-producing regions
-• Content Trends Over Time (Line Chart): Year-wise release analysis
-• Sentiment Analysis: Insights derived from content descriptions
+## Key Metrics Analyzed
+- Movies vs TV Shows distribution
+- Ratings distribution
+- Top directors and actors
+- Top countries producing content
+- Content release trends over years
+- Sentiment trends from content descriptions
 
-Approach
-• Loaded dataset and performed initial exploration
-• Cleaned and transformed data using Pandas
-• Engineered features by splitting and restructuring columns
-• Used Matplotlib, Seaborn, and Plotly for visualization
-• Derived insights through grouping and aggregation
+## Visualizations
+- Bar Chart: Movies vs TV Shows comparison  
+- Pie Chart: Ratings distribution  
+- Horizontal Bar Charts: Top directors and actors  
+- Bar Chart: Top content-producing countries  
+- Line Chart: Year-wise content release trends  
+- Sentiment Analysis: Insights from content descriptions  
 
+## Approach
+1. Loaded dataset and performed initial exploration  
+2. Cleaned and transformed data using Pandas  
+3. Engineered features by splitting and restructuring columns  
+4. Used Matplotlib, Seaborn, and Plotly for visualization  
+5. Derived insights using grouping and aggregation  
+
+## Tools & Technologies
+- Python  
+- Google Colab  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Plotly  
+- Exploratory Data Analysis (EDA)
 Tools and Technologies Used
 Python | Google Colab | Pandas | NumPy | Matplotlib | Seaborn | Plotly | Data Analysis | EDA
